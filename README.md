@@ -2,7 +2,7 @@
 
 # Project Description
 
-- Given a Case study and transactional data for food trucks. The following folders contain a operational ETL pipeline, a dashboard service hosted through streamlit and Terraform files to make AWS resources.
+- The aim of this project was to create a ETL pipeline that would extract data from a csv file located on a S3 bucket on AWS,transform the data ensuring it was clean and valid and load the transactional data taken from food trucks into a Redshift database then create visuals and a dashboard to show the performance of each truck, each location and current trends that are happening with the food truck business.
 
 ## 🛠️ Getting Setup
 
