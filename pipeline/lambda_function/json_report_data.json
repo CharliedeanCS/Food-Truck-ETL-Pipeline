@@ -1,0 +1,43 @@
+{
+    "all_trucks_transactions_sum": 660.54,
+    "all_trucks_transactions_count": 105,
+    "all_trucks_transactions_average": 6.290857142857143,
+    "trucks": [
+        {
+            "truck_1": {
+                "amount_of_transactions": 18,
+                "total_transactions_sum": 134.5
+            }
+        },
+        {
+            "truck_2": {
+                "amount_of_transactions": 13,
+                "total_transactions_sum": 105.3
+            }
+        },
+        {
+            "truck_3": {
+                "amount_of_transactions": 28,
+                "total_transactions_sum": 163.72
+            }
+        },
+        {
+            "truck_4": {
+                "amount_of_transactions": 4,
+                "total_transactions_sum": 15.96
+            }
+        },
+        {
+            "truck_5": {
+                "amount_of_transactions": 28,
+                "total_transactions_sum": 162.2
+            }
+        },
+        {
+            "truck_6": {
+                "amount_of_transactions": 14,
+                "total_transactions_sum": 78.86
+            }
+        }
+    ]
+}
