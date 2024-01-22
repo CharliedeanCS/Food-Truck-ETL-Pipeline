@@ -6,14 +6,15 @@ This folder should contain all code and resources required for the dashboard.
 
 - This folder contains all the information needed to create a streamlit dashboard representing the data collected from the T3 trucks database.
 
-## 🛠️ Getting Setup
-
-.env keys used:
-DATABASE_USERNAME = xxxxxxxx
-DATABASE_PASSWORD = xxxxxxxx
-DATABASE_IP = xxxxxxxxx
-DATABASE_PORT = xxxxxxxx
-DATABASE_NAME = xxxxxxxxx
+## 🔐 Environment Variables
+- Create a `.env` file with the following information:
+- `DATABASE_IP` -> ARN to your AWS RDS.
+- `DATABASE_NAME` -> Name of your database.
+- `DATABASE_USERNAME` -> Your database username.
+- `DATABASE_PASSWORD` -> Password to access your database.
+- `DATABASE_PORT` -> Port used to access the database.
+- `AWS_ACCESS_KEY_ID_ `  -> Personal AWS ACCESS KEY available on AWS.
+- `AWS_SECRET_ACCESS_KEY_` -> Personal AWS SECRET ACCESS KEY available on AWS.
 
 ## 🗂️ Files Explained
 
