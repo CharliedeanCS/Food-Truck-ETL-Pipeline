@@ -5,17 +5,17 @@
 - The aim of this project was to create a ETL pipeline that would extract data from a csv file located on a S3 bucket on AWS,transform the data ensuring it was clean and valid and load the transactional data taken from food trucks into a Redshift database then create visuals and a dashboard to show the performance of each truck, each location and current trends that are happening with the food truck business.
 
 ## 🛠️ Getting Setup
+- Navigate to the pipeline folder and install requirements using `pip3 install -r requirements.txt`
 
-'pip install -r requirements.txt'
-
-.env keys used:
-AWS_ACCESS_KEY_ID = xxxxxxxxxx
-AWS_SECRET_ACCESS_KEY = xxxxxxxx
-DATABASE_USERNAME = xxxxxxxx
-DATABASE_PASSWORD = xxxxxxxx
-DATABASE_IP = xxxxxxxxx
-DATABASE_PORT = xxxxxxxx
-DATABASE_NAME = xxxxxxxxx
+## 🔐 Environment Variables
+- Create a `.env` file with the following information:
+- `DATABASE_IP` -> ARN to your AWS RDS.
+- `DATABASE_NAME` -> Name of your database.
+- `DATABASE_USERNAME` -> Your database username.
+- `DATABASE_PASSWORD` -> Password to access your database.
+- `DATABASE_PORT` -> Port used to access the database.
+- `AWS_ACCESS_KEY_ID_ `  -> Personal AWS ACCESS KEY available on AWS.
+- `AWS_SECRET_ACCESS_KEY_` -> Personal AWS SECRET ACCESS KEY available on AWS.
 
 ## 🗂️ Folders Explained
 
